@@ -43,8 +43,8 @@ src/
 ```
 
 Além disso, o projeto utiliza duas pastas auxiliares:  
-- **`input/`** → Coloque aqui a imagem PNG que deseja preencher.  
-- **`output/`** → Criada automaticamente para salvar os resultados e frames da animação.  
+- **`entrada/`** → Coloque aqui a imagem PNG que deseja preencher.  
+- **`saida/`** → Criada automaticamente para salvar os resultados e frames da animação.  
 
 ---
 
