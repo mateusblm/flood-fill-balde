@@ -1,6 +1,6 @@
 # Flood Fill Balde
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
 Este repositório contém a implementação do algoritmo **Flood Fill** (preenchimento por inundação), desenvolvido como parte da disciplina de **Resolução de Problemas Estruturados em Computação** do curso de **Engenharia de Software da PUCPR**.
 
@@ -12,7 +12,7 @@ Ambas as estruturas foram implementadas do zero, sem o uso das bibliotecas padr�
 
 ---
 
-## 🎯 Objetivos do Projeto
+## Objetivos do Projeto
 
 O Flood Fill é um algoritmo clássico da computação gráfica, famoso pela sua aplicação na ferramenta **“balde de tinta”** de softwares como o Paint.  
 
@@ -48,7 +48,7 @@ Além disso, o projeto utiliza duas pastas auxiliares:
 
 ---
 
-## 🚀 Como Executar
+## Como Executar
 
 ### Pré-requisitos
 - **Java Development Kit (JDK 8+)** instalado e configurado no PATH.
@@ -98,9 +98,9 @@ Além disso, o projeto utiliza duas pastas auxiliares:
 
 ---
 
-## ✨ Diferenças Visuais: Pilha vs. Fila
+## Diferenças Visuais: Pilha vs. Fila
 
-- 🎨 **Pilha (Stack - DFS):** o preenchimento segue um caminho até o fim antes de voltar, resultando em um preenchimento **irregular e imprevisível**.  
-- 🌊 **Fila (Queue - BFS):** o preenchimento se expande em camadas a partir do ponto inicial, de forma **radial e uniforme**, como uma onda.
+- **Pilha (Stack - DFS):** o preenchimento segue um caminho até o fim antes de voltar, resultando em um preenchimento **irregular e imprevisível**.  
+- **Fila (Queue - BFS):** o preenchimento se expande em camadas a partir do ponto inicial, de forma **radial e uniforme**, como uma onda.
 
 ---
