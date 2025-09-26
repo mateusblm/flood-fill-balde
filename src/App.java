@@ -28,15 +28,15 @@ public class App {
 
 
         System.out.println("\nIniciando preenchimento com pilha");
-        BufferedImage imageForStack = copyImage(imagemOriginal);
-        inundar.inundarComPilha(imageForStack, inicioX, inicioY, novaCor.getRGB());
-        gerenciadorImagem.salvar(imageForStack, diretorioSaida + "/resultado_final_pilha.png");
+        BufferedImage imagemPilha = copyImage(imagemOriginal);
+        inundar.inundarComPilha(imagemPilha, inicioX, inicioY, novaCor.getRGB());
+        gerenciadorImagem.salvar(imagemPilha, diretorioSaida + "/resultado_final_pilha.png");
         System.out.println("Resultado final da Pilha salvo em: " + diretorioSaida + "/resultado_final_pilha.png");
 
         System.out.println("\nIniciando preenchimento com fila");
-        BufferedImage imageForQueue = copyImage(imagemOriginal);
-        inundar.inundarComFila(imageForQueue, inicioX, inicioY, novaCor.getRGB());
-        gerenciadorImagem.salvar(imageForQueue, diretorioSaida + "/resultado_final_fila.png");
+        BufferedImage imagemFila = copyImage(imagemOriginal);
+        inundar.inundarComFila(imagemFila, inicioX, inicioY, novaCor.getRGB());
+        gerenciadorImagem.salvar(imagemFila, diretorioSaida + "/resultado_final_fila.png");
         System.out.println("Resultado final da Fila salvo em: " + diretorioSaida + "/resultado_final_fila.png");
 
         System.out.println("\nVerifique a pasta '" + diretorioSaida + "' para os frames da animação e os resultados finais.");
